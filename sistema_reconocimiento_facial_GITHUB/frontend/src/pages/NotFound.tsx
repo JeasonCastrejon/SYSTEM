@@ -1,0 +1,1 @@
+import {Link} from "react-router-dom";export default function NotFound(){return <div className="grid min-h-[70vh] place-items-center"><div className="text-center"><h1 className="text-5xl font-bold">404</h1><p className="mt-2 text-slate-500">Módulo no encontrado.</p><Link className="btn-primary mt-5" to="/">Volver</Link></div></div>}

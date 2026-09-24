@@ -1,0 +1,3 @@
+import type { ReactNode } from "react";
+import { ChevronRight } from "lucide-react";
+export default function PageHeader({title,description,action}:{title:string;description:string;action?:ReactNode}){return <div className="mb-7 flex flex-col gap-4 md:flex-row md:items-end md:justify-between"><div><div className="mb-2 flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-blue-600">FaceAI Intelligence <ChevronRight size={13}/></div><h1 className="text-2xl font-bold tracking-tight md:text-3xl">{title}</h1><p className="mt-1.5 max-w-3xl text-sm text-slate-500">{description}</p></div>{action}</div>}

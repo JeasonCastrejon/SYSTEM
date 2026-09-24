@@ -1,0 +1,1 @@
+from app.models.persona_model import Persona,FaceEmbedding,RecognitionLog,MLTrainingRecord

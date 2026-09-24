@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+python-multipart
+opencv-python
+numpy
+scipy
+scikit-learn
+sqlalchemy
+pydantic
+email-validator
+joblib
+insightface
+onnxruntime
